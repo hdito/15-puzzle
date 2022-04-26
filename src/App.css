@@ -1,0 +1,42 @@
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 4vmin;
+}
+html,body{
+  height: 100vh;
+}
+#root{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameboard{
+  display: grid;
+  gap: 1vmin;
+  height: 50vmin;
+  width: 50vmin;
+}
+.tile{
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+.field{
+  border: 1vmin solid black;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.correct{
+  border-color: gold;
+}
+.result{
+  margin-bottom: 1vmin;
+  color: black;
+  text-align: center;
+}
+.invisible{
+  visibility: hidden;
+}
